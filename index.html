@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <title>Home</title>
+    <script defer src="static/js/app.js"></script>
+</head>
+
+
+<body>  
+    <header>
+        <div class="header">
+            <h1 id="header-title"></h1>
+        </div>
+    </header>
+    <main>
+        <div class="modal display-none">
+            <form class="form" action="">
+                <input class="input-text" type="text" placeholder="სახელი">
+                <input class="input-text" type="text" placeholder="გვარი">
+                <button class="submit" type="submit">Submit</button>
+                <button class="cancel" type="button" onclick="modalState()" >Delete</button>
+            </form>
+        </div>
+        <button class="btn" onclick="modalState()"></button> 
+    </main>
+</body>
+</html>
